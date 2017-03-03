@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import samplePod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let obj : sampleTestPod = sampleTestPod()
+        
+        obj.sampletestLog()
+        
+        sampleTestPod().sampletestLog()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

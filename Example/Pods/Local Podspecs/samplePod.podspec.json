@@ -1,0 +1,26 @@
+{
+  "name": "samplePod",
+  "version": "0.1.0",
+  "summary": "This is my first cocoapod",
+  "homepage": "https://github.com/JothiG/samplePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jothi": "joethiru01@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/JothiG/samplePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "samplePod/Classes/**/*",
+  "resource_bundles": {
+    "samplePod": [
+      "samplePod/Assets/*.png"
+    ]
+  }
+}
